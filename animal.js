@@ -26,7 +26,7 @@
     // //zmiana tablica na obiekt
     var schroniskoObject=
         {
-            schronisko:[],
+            schronisko:['kot','pies','los'],
           pokaz:function(){
                console.log(this.schronisko);
            },
@@ -34,9 +34,13 @@
               this.schronisko.push(gadzina);
               this.pokaz();
             },
+            zmien:function(position,nowy){
+                this.schronisko[position]=nowy;
+                this.pokaz();
+            },
+            usun:function(position){
+                this.schronisko.splice(position);
+                pokaz.schronisko();
+            },
         }
-
-
-
-   schroniskoObject.add('sdad');
-   
+schroniskoObject.usun(1)
