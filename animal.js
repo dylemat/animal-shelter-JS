@@ -28,7 +28,7 @@
 // Program, w którym dodajemy do bazy/usuwamy z bazy
 // zwierzęta oraz sprawdzamy stan schroniska (pełne,
 // przepełnione, puste etc.).
-// 85 / 147
+//
 // Junior Developer - pierwsza praca jako programista - JavaDevMatt
 // Wariant I – Bardzo prosty:
 // • Program konsolowy.
@@ -51,8 +51,7 @@
 // zostać załadowany ostatni stan z bazy/pliku.
 // Wariant III – to co wyżej plus:
 // • Gdy schronisko ma mniej niż 5 wolnych miejsc wysyłany
-// 86 / 147
-// Junior Developer - pierwsza praca jako programista - JavaDevMatt
+
 // jest email informacyjny do osób pracujących w
 // schronisku.
 // • Możliwość edycji poszczególnych zwierząt. Dodanie pól
@@ -74,8 +73,8 @@
 // • Eksport statusu schroniska do pliku .csv.
 // • Generowanie dziennego raportu ze stanu schroniska do
 // pliku .pdf, który zostanie wysłany na określonego maila
-// 87 / 147
-// Junior Developer - pierwsza praca jako programista - JavaDevMatt
+//
+// 
 // oraz dodany do jakiegoś archiwum.
 // • Możliwość dodawania zdjęć określonego zwierzaka przez
 // aplikację mobilną (wymaga rozszerzenia webserwisu oraz
